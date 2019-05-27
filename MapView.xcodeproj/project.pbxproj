@@ -35,11 +35,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E833466C229BA1CA00B8D94B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E86842A0229A575900FA3B7D = {
 			isa = PBXGroup;
 			children = (
 				E86842AB229A575900FA3B7D /* MapView */,
 				E86842AA229A575900FA3B7D /* Products */,
+				E833466C229BA1CA00B8D94B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +104,11 @@
 				TargetAttributes = {
 					E86842A8229A575900FA3B7D = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
